@@ -1,3 +1,9 @@
 <h1>Pages#x</h1>
 <p>Find me in app/views/pages/x.html.erb</p>
 <h1>Sebastian</h1>
+
+<% form_tag(:action => "update", {:class => "form"}) do %>
+	<input type="text" placeholder="nombre">
+	<input type="text" placeholder="edad">
+	<input type="text" placeholder="mail">
+<% end -%>
